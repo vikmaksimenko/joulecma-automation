@@ -1,4 +1,4 @@
-Joule Cucumber Selenide UI Automation Test Framework [![Build Status](https://travis-ci.org/vikmaksimenko/Joule-cucumber-selenide-selenoid-automation.svg?branch=master)](https://travis-ci.org/vikmaksimenko/Joule-cucumber-selenide-selenoid-automation)
+Joule Cucumber Selenide UI Automation Test Framework [![Build Status](https://travis-ci.org/vikmaksimenko/joulecma-automation.svg?branch=master)](https://travis-ci.org/vikmaksimenko/joulecma-automation)
 =====================================================
 
 This is a project for running Cucumber Selenide automated UI tests on Selenoid containers
@@ -36,4 +36,4 @@ Joule Allure report can be found on http://joule-cucumber-selenide-selenoid-auto
 
 ### Travis CI Integration
 
-This project is integrated with Travis CI, see https://travis-ci.org/vikmaksimenko/joule-cucumber-selenide-selenoid-automation. The builds are running daily and on push to master branch.
+This project is integrated with Travis CI, see https://travis-ci.org/vikmaksimenko/joulecma-automation. The builds are running daily and on push to master branch.
