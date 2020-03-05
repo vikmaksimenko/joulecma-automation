@@ -1,0 +1,9 @@
+language: java
+services:
+  - docker
+
+before_install:
+  - docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v ${HOME}:/root -e OVERRIDE_HOME=${HOME} aerokube/cm:latest-release selenoid start --vnc --tmpfs 128
+
+script:
+  - mvn clean test
