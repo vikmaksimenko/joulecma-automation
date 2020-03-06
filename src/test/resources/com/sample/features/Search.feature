@@ -9,7 +9,7 @@ Feature: Search functionality
     And   I can open first search result
     And   I should find "DynaMed" on page
 
-  Scenario: Searching by valid query should return proper results
+  Scenario: Searching by invalid query should not return results
     When  I search by "qweqweqwe"
     Then  I should see message "Your search yielded no results."
 
